@@ -1,16 +1,9 @@
-import unittest
-import os
-from datetime import datetime
-from selenium import webdriver
-from selenium.webdriver.common.by import By
+import requests
+from bs4 import BeautifulSoup
 
-driver = webdriver.Safari()
+page = requests.get("https://builder.blender.org/download/daily")
+soup = BeautifulSoup(page.content, 'html.parser')
 
-driver.get("https://builder.blender.org/download/daily")
-items = driver.find_elements(By.ID, "builds-list platform-darwin active")
+last = soup.find_all('li', class_="os macos")[-2]
 
-for item in items:
-    text = item.text
-    print(text)
-
-driver.close()
+print(last)
