@@ -3,5 +3,5 @@ A script plus a launchd daemon that checks for daily Blender experimental builds
 
 # Getting started
 1. A Mac, or hackintosh. Linux support will come later.
-3. Run `pip3 install requests beautifulsoup4` in the terminal, wait for it to install
-4. You should be good to go
+2. Run install.app, type your password, wait a minute or two
+3. You should be good to go
