@@ -1,5 +1,5 @@
 # checkblenderupdates
-A script plus a cron-job that checks for daily Blender experimental builds every day and displays a notification letting the user know if there's a new experimental release
+A script plus a launchd daemon that checks for daily Blender experimental builds every day and displays a notification letting the user know if there's a new experimental release
 
 # Getting started
 1. A Mac, or hackintosh. Linux support will come later.
