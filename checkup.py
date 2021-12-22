@@ -13,4 +13,6 @@ fileSave = download.split('/', 5)[5]
 
 os.system("osascript -e 'display notification \"Downloading...\" with title \"New Blender version available\"'")
 os.system("cd ~/Downloads && curl -o  " + fileSave + " " + download)
-os.system("osascript -e 'display notification \"Download completed.\" with title \"New Blender version available\"'") 
+os.system("osascript -e 'display notification \"Download completed.\" with title \"New Blender version available\"'")
+os.system("cd ~/Downloads && hdiutil attach " + fileSave)
+os.system("cd /Volumes/Blender && cp -r Blender.app /Applications")
