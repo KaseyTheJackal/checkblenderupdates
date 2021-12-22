@@ -7,7 +7,6 @@ Make the script automatically download, mount, and install, the new version of B
 
 
 # Getting started
-1. A Mac, or hackintosh. Linux support will come later. 
-2. Make sure remote automation is enabled in Safari. Enable the developer menu via `Preferences -> Advanced -> Show Develop menu in menu bar`, then go to `Develop -> Allow Remote Automation`
-3. Run `pip3 install selenium` in the terminal, wait for it to install
+1. A Mac, or hackintosh. Linux support will come later.
+3. Run `pip3 install requests beautifulsoup4` in the terminal, wait for it to install
 4. You should be good to go
