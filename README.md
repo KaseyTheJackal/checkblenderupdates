@@ -8,4 +8,4 @@ A script plus a launchd daemon that checks for daily Blender experimental builds
 
 
 # If you find the script useful, consider supporting my caffine habit!
-<iframe id='kofiframe' src='https://ko-fi.com/kaseythejackal/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='kaseythejackal'></iframe>
+  [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T41Q5RS)
